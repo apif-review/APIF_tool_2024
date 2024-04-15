@@ -4,7 +4,7 @@
 
 APIF is a command-line tool designed for API black-box vulnerability testing. It captures API traffic via browser proxy and conducts deep recognition and mutation of API parameters in a tree structure. Additionally, APIF incorporates various optimization strategies to enhance the precision and efficiency of API vulnerability testing.
 
-<img width="539" alt="image" src="https://github.com/apif-review/APIF_tool_2024/assets/167054083/a200a689-dd22-415e-b021-eb859b9cfbf6">
+<img width="538" alt="image" src="https://github.com/apif-review/APIF_tool_2024/assets/167054083/5bbb2f8e-e95e-4671-bf4e-c6fc83b622c6">
 
 
 # Vulnerabilities Reported by APIF
@@ -31,7 +31,7 @@ APIF is a command-line tool designed for API black-box vulnerability testing. It
 
 APIF supports depth parameter injection, which has a powerful data parsing and mutation algorithm. It can parse common data formats (json, xml, form, etc.) into tree structure, and then mutate the tree according to the rules in poc, including the mutation of leaf nodes and tree structure. After the mutation is complete, the tree structure is restored to the original data format.
 
-<img width="539" alt="image" src="https://github.com/apif-review/APIF_tool_2024/assets/167054083/0741426b-02e5-4851-921d-59d592c22f7d">
+<img width="539" alt="image" src="https://github.com/apif-review/APIF_tool_2024/assets/167054083/28082271-b36d-4309-91f6-55c90eb57a5a">
 
 
 APIF automatically optimizes the queue of APIs to be tested. It calculates an efficient testing sequence based on the context relationships of the APIs and a vulnerability probability algorithm. This approach ensures comprehensive coverage of each API function while maximizing the efficiency of vulnerability discovery.
